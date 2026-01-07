@@ -1,7 +1,45 @@
-// Plaud.ai Russian Translation Extension v1.1.0
+// Plaud.ai Russian Translation Extension v1.2.0
 // Словарь переводов для основных элементов интерфейса
 
 const translations = {
+  // ==================== AI РЕЗЮМЕ И АНАЛИЗ ====================
+  "Your Conversation Summary": "Резюме вашего разговора",
+  "Conversation Summary": "Резюме разговора",
+  "The Vibe": "Атмосфера",
+  "The Dynamic": "Динамика",
+  "The Takeaway": "Главное",
+  "The Outcome": "Результат",
+  "The Context": "Контекст",
+  "The Mood": "Настроение",
+  "Key Insights": "Ключевые выводы",
+  "Main Points": "Основные моменты",
+  "Action Items": "Задачи к выполнению",
+  "Next Steps": "Следующие шаги",
+  "Decisions Made": "Принятые решения",
+  "Questions Raised": "Поднятые вопросы",
+  "Follow-ups": "Дальнейшие действия",
+  "Participants": "Участники",
+  "Catch-up Meeting": "Встреча для обсуждения",
+  "Meeting Summary": "Резюме встречи",
+  "Discussion Points": "Пункты обсуждения",
+  "Warm, candid, and pragmatic": "Тёплая, откровенная и прагматичная",
+  "The sentiment remained supportive": "Настроение оставалось поддерживающим",
+  "with a focus on": "с фокусом на",
+  "catching up": "обсуждение текущих дел",
+  "overcoming constraints": "преодоление ограничений",
+  "planning for better collaboration": "планирование лучшего сотрудничества",
+  "blending personal check-ins": "сочетая личные обсуждения",
+  "with practical logistics": "с практическими вопросами",
+  "forward-looking tone": "ориентированный на будущее тон",
+  "mutual respect": "взаимное уважение",
+  "shared goals": "общие цели",
+  "AI Cloud Tool": "Облачный инструмент ИИ",
+  "Financial Constraints": "Финансовые ограничения",
+  "Vehicle Maintenance": "Обслуживание автомобиля",
+  "Scheduling": "Планирование",
+  "health setbacks": "проблемы со здоровьем",
+  "financial hurdles": "финансовые трудности",
+  
   // ==================== НАВИГАЦИЯ И МЕНЮ ====================
   "Home": "Главная",
   "Dashboard": "Панель управления",
