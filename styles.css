@@ -1,0 +1,20 @@
+/* Plaud.ai Russian Translation - Custom Styles */
+
+/* Стили для переведённых элементов */
+[data-translated="true"] {
+  /* Маркер что элемент переведён (для отладки) */
+}
+
+/* Плавная анимация при появлении переводов */
+.plaud-translated {
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Скрыть мерцание при начальной загрузке */
+.plaud-loading {
+  opacity: 0;
+}
+
+.plaud-loaded {
+  opacity: 1;
+}

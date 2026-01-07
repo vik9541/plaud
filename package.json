@@ -1,0 +1,23 @@
+{
+  "name": "plaud-russian-translation",
+  "version": "1.0.0",
+  "description": "Chrome Extension для перевода Plaud.ai на русский язык",
+  "scripts": {
+    "build": "echo 'Build complete'",
+    "icons": "echo 'Generate icons from SVG'",
+    "zip": "powershell Compress-Archive -Path manifest.json,content.js,popup.html,popup.js,styles.css,icons -DestinationPath plaud-extension.zip -Force"
+  },
+  "keywords": [
+    "chrome-extension",
+    "plaud",
+    "translation",
+    "russian",
+    "localization"
+  ],
+  "author": "@vik9541",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vik9541/plaud.git"
+  }
+}

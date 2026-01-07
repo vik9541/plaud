@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Plaud. ai Russian Translation",
+  "version": "1.0.0",
+  "description": "Автоматический перевод сайта Plaud.ai на русский язык",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://web.plaud.ai/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://web.plaud.ai/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128":  "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
