@@ -1,8 +1,8 @@
-/* Plaud.ai Russian Translation - Custom Styles */
+/* Plaud.ai Russian Translation - Styles v1.1.0 */
 
 /* Стили для переведённых элементов */
 [data-translated="true"] {
-  /* Маркер что элемент переведён (для отладки) */
+  /* Маркер что элемент переведён */
 }
 
 /* Плавная анимация при появлении переводов */
@@ -17,4 +17,56 @@
 
 .plaud-loaded {
   opacity: 1;
+}
+
+/* Улучшение отображения кириллицы */
+body {
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Фикс для элементов с фиксированной шириной */
+[data-translated="true"] button,
+[data-translated="true"] a,
+[data-translated="true"] span,
+[data-translated="true"] div {
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+/* Улучшение читаемости для маленьких элементов */
+[data-translated="true"] {
+  letter-spacing: 0.01em;
+}
+
+/* Анимация при наведении на переведённые элементы */
+[data-translated="true"]:hover {
+  transition: color 0.2s ease;
+}
+
+/* Стили для подсказок */
+[data-translated-title="true"][title],
+[data-translated-aria="true"][aria-label] {
+  cursor: help;
+}
+
+/* Placeholder стили */
+[data-translated="true"]::placeholder {
+  opacity: 0.7;
+}
+
+/* Кнопки */
+[data-translated-btn="true"] {
+  transition: all 0.2s ease;
+}
+
+/* Debug mode - показать переведённые элементы */
+.plaud-debug [data-translated="true"] {
+  outline: 1px solid rgba(102, 126, 234, 0.3) !important;
+}
+
+.plaud-debug [data-translated="true"]:hover {
+  outline: 2px solid rgba(102, 126, 234, 0.6) !important;
 }
